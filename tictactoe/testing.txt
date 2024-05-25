@@ -1,0 +1,75 @@
+
+#TEST
+#turn = player(initial_state())
+#print(turn)
+
+#working
+
+
+"""
+testB = [[X, EMPTY, EMPTY],
+        [EMPTY, O, EMPTY],
+        [EMPTY, EMPTY, O]]
+actionL = actions(testB)
+print(actionL)
+
+working
+"""
+
+"""
+testB = [[X, EMPTY, EMPTY],
+        [EMPTY, O, O],
+        [EMPTY, EMPTY, X]]
+print(testB)
+nb = result(testB, (0,2))
+print(nb)
+
+working
+"""
+
+"""
+#test
+
+testB = [[O, EMPTY, X],
+        [O, EMPTY, EMPTY],
+        [EMPTY, EMPTY, O]]
+win = winner(testB)
+print(win)
+
+faulty???
+"""
+
+"""
+#test
+
+testB = [[O, O, X],
+        [X, X, O],
+        [O, X, O]]
+done = terminal(testB)
+print(done)
+
+working
+"""
+
+
+
+"""
+testB = [[O, O, X],
+        [X, X, O],
+        [O, X, O]]
+u = utility(testB)
+print(u)
+
+working
+"""
+
+
+
+"""
+testB = [[X, O, X],
+        [X, O, EMPTY],
+        [O, EMPTY, EMPTY]]
+op = minimax(testB)
+print(op)
+
+"""
